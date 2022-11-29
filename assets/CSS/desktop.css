@@ -13,7 +13,7 @@ footer {
     display: grid;
     grid-template-columns: 15% 85%;
 
- 
+
 }
 
 nav {
@@ -36,11 +36,46 @@ nav a:hover {
 
 img {
     width: 100%;
+
 }
 
 header img {
     width: 100%;
     display: flex;
     justify-content: center;
+
 }
 
+#table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    margin-top: 3em;
+    border-collapse: collapse;
+    font-size: 1em;
+}
+
+td,
+th {
+    border: solid black 1px;
+
+}
+
+
+
+footer {
+    color: white;
+    background-color: black;
+}
+
+
+footer p {
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+}
+
+.mobile {
+    display: none;
+}
