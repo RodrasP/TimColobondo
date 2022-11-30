@@ -5,23 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cssVideo.css">
+    <link rel="stylesheet" href="assets/CSS/desktop.css">
+    <link rel="stylesheet" href="assets/CSS/tablet.css">
+    <link rel="stylesheet" href="assets/CSS/mobile.css">
     <title>Video</title>
 </head>
 
 <body>
-    <div class="cabecera">
-        <header class="logo">
-            <img src="logo.png" alt="logo del equipo TimColobondo" class="logo">
+    <div id="cabecera">
+        <header>
+            <img src="assets/images/logo.png" alt="Our logo">
         </header>
         <nav>
             <a href="index.html">Home</a>
-            <a href="webPodcast.html">Podcast</a>
-            <a href="webVideo.html">Video</a>
+            <a href="podcast.html">Podcast</a>
         </nav>
     </div>
-    <div class="heroImg"><img src="" alt="foto del equipo"></div>
     <main>
+        <div id="hero" class="tablet-desktop">
+            <img src="assets/images/team.jpg" alt="Foto del equipo">
+        </div>
         <div class="videos">
             <video controls>
                 <source src="" type="video/mp4">
@@ -33,7 +36,9 @@
             </video>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <p>&copy; 2022/2023 Tim Colobondo S.A</p>
+    </footer>
 </body>
 
 </html>

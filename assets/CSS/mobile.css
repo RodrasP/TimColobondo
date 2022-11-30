@@ -1,54 +1,57 @@
-body,
-header,
-nav,
-footer {
-    margin: 1;
-    padding: 0;
-    border: 0;
-}
+@media screen and (max-width: 481px) {
 
+    body,
+    header,
+    nav,
+    footer {
+        margin: 1;
+        padding: 0;
+        border: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
+    .tablet-desktop {
+        display: none;
+    }
 
-.tablet-desktop {
-    display: none;
-}
+    footer {
+        color: white;
+        background-color: black;
+    }
 
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    nav a {
 
+        padding: 5%;
+        text-decoration: none;
+        color: black;
+        font-size: 2em;
+    }
 
+    header img {
+        width: 50%;
+        display: flex;
+        justify-content: center;
 
-footer {
-    color: white;
-    background-color: black;
-}
+        margin-left: 25%;
+    }
 
+    footer p {
+        margin-block-start: 1em;
+        margin-block-end: 0em;
+    }
 
-nav {
-    display: flex;
- justify-content: center;
-    align-items: center;
-}
-
-nav a {
- 
-    padding: 5%;
-    text-decoration: none;
-    color: black;
-    font-size: 2em;
-}
-
-
-
-header img {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-
-    margin-left: 25%;
-}
-
-
-footer p {
-    margin-block-start: 1em;
-    margin-block-end: 0em;
+    /*Video*/
+    .videos {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 }
