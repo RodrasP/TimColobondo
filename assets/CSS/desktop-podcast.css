@@ -34,7 +34,7 @@ nav a:hover {
     font-size: 3em;
 }
 
-img {
+#hero img {
     width: 100%;
 
 }
@@ -96,4 +96,17 @@ footer p {
 table caption {
     font-weight: bold;
     margin-bottom: 3%;
+    font-size: 20pt;
+}
+
+.podcasts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.podcast {
+    margin-left: 2%;
+    padding: 0% 3%;
+    width: 25%;
 }
