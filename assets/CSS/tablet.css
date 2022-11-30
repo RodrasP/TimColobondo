@@ -38,6 +38,9 @@ header {
     justify-content: center;
 }
 
+header img {
+    width: 50%;
+}
 
 
 #table {
