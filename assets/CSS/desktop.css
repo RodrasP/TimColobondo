@@ -52,33 +52,6 @@
         font-size: 1em;
     }
 
-    td,
-    th {
-        border: solid black 1px;
-
-    }
-
-    footer {
-        color: white;
-        background-color: black;
-    }
-
-    header {
-        display: flex;
-        justify-content: center;
-    }
-
-    #table {
-        display: flex;
-        justify-content: center;
-    }
-
-    table {
-        margin-top: 3em;
-        border-collapse: collapse;
-        font-size: 1em;
-    }
-
     thead {
         background-color: black;
         color: white;
@@ -92,8 +65,6 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-
-
 
     footer {
         color: white;
@@ -110,7 +81,12 @@
         display: none;
     }
 
-    /*Estilos Pagina podcast*/
+    /*Podcast*/
+
+    .lista {
+        display: none;
+    }
+
     .tabla {
         display: flex;
         justify-content: center;

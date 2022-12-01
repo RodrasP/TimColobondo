@@ -52,10 +52,18 @@
         font-size: 1em;
     }
 
+    thead {
+        background-color: black;
+        color: white;
+    }
+
     td,
     th {
         border: solid black 1px;
-
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     footer {
@@ -73,9 +81,27 @@
     }
 
     /*Podcast*/
+    .lista {
+        display: none;
+    }
+
+    .tabla {
+        display: flex;
+        justify-content: center;
+    }
+
+    table caption {
+        font-weight: bold;
+        margin-bottom: 3%;
+        font-size: 20pt;
+    }
+
     .podcasts {
-        display: block;
         margin-top: 3%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .podcast {
