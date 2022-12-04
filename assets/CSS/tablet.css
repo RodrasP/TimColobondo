@@ -4,7 +4,7 @@
     header,
     nav,
     footer {
-        margin: 1;
+        margin: 0;
         padding: 0;
         border: 0;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -35,10 +35,12 @@
     header {
         display: flex;
         justify-content: center;
+        align-self: center;
     }
 
     header img {
         width: 50%;
+        margin-left: 25%;
     }
 
     #table {
@@ -50,6 +52,7 @@
         margin-top: 3em;
         border-collapse: collapse;
         font-size: 1em;
+     
     }
 
     thead {
@@ -88,6 +91,7 @@
     .tabla {
         display: flex;
         justify-content: center;
+    
     }
 
     table caption {
@@ -102,19 +106,32 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        margin-left: 11%;
     }
 
     .podcast {
         width: 45%;
-
     }
+
+    .podcast img,
+    audio {
+        width: 75%;
+    }
+
+    .podcast p {
+        margin-right: 25%;
+    }
+
 
     /*Video*/
     .video {
-        width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
+    }
+
+    video {
+        width: 100%;
     }
 }

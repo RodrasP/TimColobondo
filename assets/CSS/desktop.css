@@ -21,6 +21,11 @@
         align-items: center;
     }
 
+
+    header img {
+        width: 100%;
+    }
+
     nav a {
         margin: 5%;
         text-decoration: none;
@@ -39,6 +44,7 @@
     header {
         display: flex;
         justify-content: center;
+        align-self: center;
     }
 
     #table {
@@ -87,10 +93,7 @@
         display: none;
     }
 
-    .tabla {
-        display: flex;
-        justify-content: center;
-    }
+ 
 
     table caption {
         font-weight: bold;
@@ -110,6 +113,11 @@
         width: 25%;
     }
 
+    .podcast img,
+    audio {
+        width: 100%;
+    }
+
     footer p {
         margin-block-start: 1em;
         margin-block-end: 0em;
@@ -121,10 +129,14 @@
 
     /*Video*/
     .video {
-        width: 100%;
-        display: flex;
+
         justify-content: center;
         flex-direction: column;
         align-items: center;
+  
     }
+
+  video{
+    width: 100%;
+  }
 }
