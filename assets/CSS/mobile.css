@@ -46,6 +46,20 @@
         margin-block-end: 0em;
     }
 
+    /*Podcast*/
+    .tabla {
+        display: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .dia-semana {
+        font-weight: bold;
+    }
+
+
     /*Video*/
     .video {
         width: 100%;

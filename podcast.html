@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/mobile.css" media="screen and (max-width: 481px)">
+    <link rel="stylesheet" href="assets/CSS/tablet.css" media="screen and (min-width: 481px) and (max-width: 768px)">
+    <link rel="stylesheet" href="assets/CSS/desktop.css" media="screen and (min-width: 768px)">
     <title>Podcast</title>
 </head>
 
 <body>
-    <div class="cabecera">
+    <div id="cabecera">
         <header>
             <a href="index.html"> <img src="assets/images/logo.png" alt="Our logo"></a>
         </header>
@@ -19,87 +22,131 @@
             <a href="webVideo.html">Video</a>
         </nav>
     </div>
-    <div class="heroImg"><img src="img" alt="foto del equipo"></div>
+    <div id="hero" class="tablet-desktop">
+        <img src="assets/images/team.jpg" alt="Foto del equipo">
+    </div>
     <main>
-        <table>
-            <caption>Horario del podcast</caption>
-            <thead>
-                <tr>
-                    <th>Horas</th>
-                    <th>Lunes</th>
-                    <th>Martes</th>
-                    <th>Miercoles</th>
-                    <th>Jueves</th>
-                    <th>Viernes</th>
+        <div class="lista">
+            <h3>Horario del Podcast</h3>
+            <ul>
+                <li class="dia-semana">Lunes</li>
+                <ul>
+                    <li>
+                        18:00-20:00 -> Tertulia deportiva
+                    </li>
+                </ul>
+                <li class="dia-semana">Martes</li>
+                <ul>
+                    <li>
+                        17:00-18:00 -> Debate Isla
+                    </li>
+                </ul>
+                <li class="dia-semana">Miercoles</li>
+                <ul>
+                    <li>
+                        17:00-18:00 -> Debate Isla
+                    </li>
+                </ul>
+                <li class="dia-semana">Jueves</li>
+                <ul>
+                    <li>
+                        17:00-20:00 -> Tertulia deportiva
+                    </li>
+                    <li>
+                        20:00-21:00 -> Tertulia Actualidad
+                    </li>
+                </ul>
+                <li class="dia-semana">Viernes</li>
+                <ul>
+                    <li>
+                        20:00-21:00 -> Tertulia Actualidad
+                    </li>
+                </ul>
+            </ul>
+        </div>
+        <div class="tabla">
+            <table id="tabla-horario">
+                <caption>Horario del podcast</caption>
+                <thead>
+                    <tr>
+                        <th>Horas</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miercoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
 
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>16:00-17:00</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>16:00-17:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
 
-                </tr>
-                <tr>
-                    <td>17:00-18:00</td>
-                    <td></td>
-                    <td colspan="2">Debate Isla</td>
-                    <td rowspan="3">Tertulia Deportiva</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>18:00-19:00</td>
-                    <td rowspan="2">Tertulia deportiva</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    </tr>
+                    <tr>
+                        <td>17:00-18:00</td>
+                        <td></td>
+                        <td colspan="2">Debate Isla</td>
+                        <td rowspan="3">Tertulia Deportiva</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>18:00-19:00</td>
+                        <td rowspan="2">Tertulia deportiva</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
 
 
-                </tr>
-                <tr>
-                    <td>19:00-20:00</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    </tr>
+                    <tr>
+                        <td>19:00-20:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
 
-                </tr>
-                <tr>
-                    <td>20:00-21:00</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td colspan="2">Tertulia Actualidad</td>
-                </tr>
-            </tbody>
-        </table>
+                    </tr>
+                    <tr>
+                        <td>20:00-21:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td colspan="2">Tertulia Actualidad</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
         <div class="podcasts">
             <div class="podcast">
-                <img src="s" alt="Foto podcast">
+                <img src="assets/images/Podcast.jpg" alt="Foto podcast">
                 <audio controls>
                     <source src="s" type="audio/ogg">
                 </audio>
                 <p>En el siguiente podcast traemos a una eminencia en el tema futbolistico como el gran Javi Ruiz</p>
             </div>
             <div class="podcast">
-                <img src="s" alt="Foto podcast">
+                <img src="assets/images/Podcast.jpg" alt="Foto podcast">
                 <audio controls>
                     <source src="s" type="audio/ogg">
                 </audio>
                 <p>En el siguiente podcast traemos a una eminencia en el tema futbolistico como el gran Javi Ruiz</p>
             </div>
             <div class="podcast">
-                <img src="s" alt="Foto podcast">
+                <img src="assets/images/Podcast.jpg" alt="Foto podcast">
                 <audio controls>
                     <source src="s" type="audio/ogg">
                 </audio>
                 <p>En el siguiente podcast traemos a una eminencia en el tema futbolistico como el gran Javi Ruiz</p>
             </div>
             <div class="podcast">
-                <img src="s" alt="Foto podcast">
+                <img src="assets/images/Podcast.jpg" alt="Foto podcast">
                 <audio controls>
                     <source src="s" type="audio/ogg">
                 </audio>
@@ -107,7 +154,9 @@
             </div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <p>&copy; 2022/2023 Tim Colobondo S.A</p>
+    </footer>
 </body>
 
 </html>
