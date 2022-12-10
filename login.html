@@ -11,14 +11,22 @@
 </head>
 
 <body>
-    <form name="form" action="index.html" method="post">
-        <fieldset>
-            <legend>Login Form</legend>
-            <p><label for="usuario">Usuario: <input type="text" name="usuario" id="usuario"></label></p>
-            <p><label for="password">Contraseña: <input type="password" name="password" id="password"></label></p>
-            <input type="button" onclick="" value="submit">
-        </fieldset>
-    </form>
+    <div id="cabecera">
+        <header>
+            <img src="assets/images/logo.png" alt="Our logo">
+        </header>
+    </div>
+    <main>
+        <form name="form" action="index.html" method="post" class="login" id="idForm">
+            <fieldset>
+                <legend>Login Form</legend>
+                <p><label for="usuario">Usuario: <input type="text" name="usuario" id="usuario"></label></p>
+                <p><label for="password">Contraseña: <input type="password" name="password" id="password"></label></p>
+                <input type="button" onclick="" value="Login">
+                <a href="registro.html">¿No tienes cuenta?</a>
+            </fieldset>
+        </form>
+    </main>
 </body>
 
 </html>
