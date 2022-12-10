@@ -10,6 +10,17 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
+    .login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    fieldset a{
+        text-decoration: none;
+        color: #000000;
+    }
+
     .tablet-desktop {
         display: none;
     }
