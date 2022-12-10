@@ -93,15 +93,15 @@
     }
 
     form {
-        width: 300px;
-        padding: 16px;
-        border-radius: 10px;
+        width: 19em;
+        padding: 6em;
+        border-radius: 1em;
         margin: auto;
         background-color: #ccc;
     }
 
     form label {
-        width: 72px;
+        width: 7em;
         font-weight: bold;
         display: inline-block;
     }
@@ -111,21 +111,21 @@
     form input[type="tel"],
     form input[type="number"],
     form input[type="password"] {
-        width: 180px;
-        padding: 3px 10px;
+        width: 18em;
+        padding: 0.3em 1em;
         border: 1px solid blue;
-        border-radius: 3px;
+        border-radius: 0.3em;
         background-color: white;
-        margin: 8px 0;
+        margin: 0.3em 0;
         display: inline-block;
     }
 
     form input[type="submit"] {
         width: 100%;
-        padding: 8px 16px;
-        margin-top: 32px;
+        padding: 1em 0.5em;
+        margin-top: 2em;
         border: 1px solid #000;
-        border-radius: 5px;
+        border-radius: 0.2em;
         display: block;
         color: #fff;
         background-color: #000;
@@ -134,4 +134,9 @@
     form input[type="submit"]:hover {
         cursor: pointer;
     }
+
+    #fieldsetLogIn{
+        width: 15em;
+    }
+    
 }
