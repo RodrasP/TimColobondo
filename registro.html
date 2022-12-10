@@ -8,13 +8,16 @@
     <link rel="stylesheet" href="assets/CSS/mobile.css">
     <link rel="stylesheet" href="assets/CSS/tablet.css">
     <link rel="stylesheet" href="assets/CSS/desktop.css">
+    <script type="module" src="js/registro.js"></script>
+    
+
     <title>Tim Colobondo</title>
 </head>
 
 <body>
     <main>
         <div id="formReg">
-            <form>
+               <form id="idForm" action="login.html">
                 <h4>Registrar</h4>
                 <fieldset>
 
@@ -77,14 +80,14 @@
                     </div>
                     <p>
                         <label for="password1">Contraseña</label><br>
-                        <input type="password" name="password1" id="password1">
+                        <input type="password" name="password1" id="password">
                     </p>
                     <p>
                         <label for="password2">Confirmar Contraseña</label><br>
                         <input type="password" name="password2" id="password2">
                     </p>
                 </fieldset>
-                <input type="submit" name="registrar" id="registrar" onclick="" value="Registrar"><br>
+                      <input type="submit" name="submit" id="registrar" value="Registrar"><br>
 
             </form>
         </div>
