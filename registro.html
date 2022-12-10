@@ -15,45 +15,83 @@
 </head>
 
 <body>
-    <form id="idForm" action="login.html">
-        <h4>Registrar</h4>
-        <fieldset>
-            <legend>Datos Personales</legend>
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" required>
-            <label for="nombre">Apellido</label>
-            <input type="text" name="apellido" id="apellido">
-            <label for="edad">Edad</label>
-            <input type="text" name="edad" id="edad"><br>
-            <label for="calle">Calle</label>
-            <input type="text" name="calle" id="calle">
-            <label for="piso">Piso</label>
-            <input type="text" name="piso" id="piso">
-            <label for="puerta">Puerta</label>
-            <input type="text" name="puerta" id="puerta"><br>
-            <label for="correo">E-mail</label>
-            <input type="email" name="correo" id="correo">
-            <label for="telefono">Telefono</label>
-            <input type="tel" name="telefono" id="telefono">
-            <label for="color">Color</label>
-            <input type="color" name="color" id="color">
-        </fieldset>
-        <fieldset>
-            <legend>Datos Privados</legend>
-            <label for="iBan">Iban</label>
-            <div class="inRow">
-                <input type="number" id="iban1" placeholder="0000" max="9999" size="4" minlength="4">
-                <input type="number" id="iban2" placeholder="0000" max="9999" size="4" minlength="4">
-                <input type="number" id="iban3" placeholder="00" max="99" size="2" minlength="2">
-            </div>
-            <label for="password1">Contraseña</label>
-            <input type="text" name="password" id="password" required><br>
-            <label for="password2">Confirmar Contraseña</label>
-            <input type="text" name="password2" id="password2" required><br>
-        </fieldset>
-        <input type="submit" name="submit" id="registrar" value="Registrar"><br>
+    <main>
+        <div id="formReg">
+               <form id="idForm" action="login.html">
+                <h4>Registrar</h4>
+                <fieldset>
 
-    </form>
+                    <legend>Datos Personales</legend>
+                    <p>
+                        <label for="nombre">Nombre</label>
+
+                        <input type="text" name="nombre" id="nombre">
+                    </p>
+                    <p>
+                        <label for="nombre">Apellido</label>
+
+                        <input type="text" name="apellido" id="apellido">
+                    </p>
+                    <p>
+                        <label for="edad">Edad</label>
+
+                        <input type="number" name="edad" id="edad"><br>
+                    </p>
+                    <p>
+                        <label for="calle">Calle</label>
+
+                        <input type="text" name="calle" id="calle">
+                    </p>
+                    <p>
+                        <label for="piso">Piso</label>
+
+                        <input type="text" name="piso" id="piso">
+                    </p>
+                    <p>
+                        <label for="puerta">Puerta</label>
+
+                        <input type="text" name="puerta" id="puerta"><br>
+                    </p>
+                    <p>
+                        <label for="correo">E-mail</label>
+
+                        <input type="email" name="correo" id="correo">
+                    </p>
+                    <p>
+                        <label for="telefono">Telefono</label>
+
+                        <input type="tel" name="telefono" id="telefono">
+                    </p>
+                    <p>
+                        <label for="color">Color</label>
+
+                        <input type="color" name="color" id="color">
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Datos Privados</legend>
+                    <label for="iBan">Iban</label>
+                    <div class="inRow">
+                        <input type="number" id="ccc1" placeholder="0000" max="9999" size="4" minlength="4">
+                        <input type="number" id="ccc2" placeholder="0000" max="9999" size="4" minlength="4">
+                        <input type="number" id="ccc3" placeholder="00" max="99" size="2" minlength="2">
+                        <input type="number" id="ccc4" placeholder="0000000000" max="9999999999" size="10"
+                            minlength="10">
+                    </div>
+                    <p>
+                        <label for="password1">Contraseña</label><br>
+                        <input type="password" name="password1" id="password">
+                    </p>
+                    <p>
+                        <label for="password2">Confirmar Contraseña</label><br>
+                        <input type="password" name="password2" id="password2">
+                    </p>
+                </fieldset>
+                      <input type="submit" name="submit" id="registrar" value="Registrar"><br>
+
+            </form>
+        </div>
+    </main>
 </body>
 
 </html>

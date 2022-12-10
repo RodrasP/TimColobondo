@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/nameLog.js"></script>
+
+    <link rel="stylesheet" href="assets/CSS/mobile.css">
+    <link rel="stylesheet" href="assets/CSS/tablet.css">
+    <link rel="stylesheet" href="assets/CSS/desktop.css">
     <title>Resultados</title>
 </head>
 
@@ -20,37 +24,41 @@
             <a href="webVideo.html">Video</a>
             <a href="juego.html">Juego</a>
         </nav>
-        <main>
-            <div>
-                <table id="tResultados">
-                    <thead>
-                        <tr>
-                            <th>Tiempo Total</th>
-                            <th>Tiempo max entre 2 globos</th>
-                            <th>Tiempo min entre 2 globos</th>
-                            <th>Tiempo en el ranking</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                    </tbody>
-                </table>
-
-                <div id="lResultados">
-                    <ul>
-                        <li>Tiempo Total</li>
-                        <li></li>
-                        <li>Tiempo max entre 2 globos</li>
-                        <li></li>
-                        <li>Tiempo min entre 2 globos</li>
-                        <li></li>
-                        <li>Tiempo en el ranking</li>
-                        <li></li>
-                    </ul>
-                </div>
-            </div>
-        </main>
     </div>
+    <main>
+        <div id="table" class="tablet-desktop">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tiempo Total</th>
+                        <th>Tiempo max entre 2 globos</th>
+                        <th>Tiempo min entre 2 globos</th>
+                        <th>Tiempo en el ranking</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+            <div class="mobile">
+                <ul>
+                    <li>Tiempo Total</li>
+                    <li></li>
+                    <li>Tiempo max entre 2 globos</li>
+                    <li></li>
+                    <li>Tiempo min entre 2 globos</li>
+                    <li></li>
+                    <li>Tiempo en el ranking</li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    </div>
+    <footer>
+        <p>&copy; 2022/2023 Tim Colobondo S.A</p>
+    </footer>
 </body>
 
 </html>
