@@ -9,20 +9,18 @@
     <link rel="stylesheet" href="assets/CSS/mobile.css">
     <link rel="stylesheet" href="assets/CSS/tablet.css">
     <link rel="stylesheet" href="assets/CSS/desktop.css">
-    <script src="js/login.js"></script>
+    <script type="module" src="js/login.js"></script>
 </head>
 
 <body>
-    <div id="cabecera">
 
-    </div>
     <main>
-        <form name="form" action="index.html" method="post" class="login" id="idForm">
+        <form class="login" id="idForm">
             <fieldset>
                 <legend>Login Form</legend>
                 <p><label for="usuario">Usuario: <input type="text" name="usuario" id="usuario"></label></p>
                 <p><label for="password">Contraseña: <input type="password" name="password" id="password"></label></p>
-                <input type="button" onclick="" value="Login">
+                <input type="submit" id="submit" name="submit" value="Login">
                 <a href="registro.html">¿No tienes cuenta?</a>
             </fieldset>
         </form>

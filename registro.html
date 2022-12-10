@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,19 @@
     <link rel="stylesheet" href="assets/CSS/mobile.css">
     <link rel="stylesheet" href="assets/CSS/tablet.css">
     <link rel="stylesheet" href="assets/CSS/desktop.css">
+    <script type="module" src="js/registro.js"></script>
+    
+
     <title>Tim Colobondo</title>
 </head>
+
 <body>
-    <form>
+    <form id="idForm" action="login.html">
         <h4>Registrar</h4>
         <fieldset>
             <legend>Datos Personales</legend>
             <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre">
+            <input type="text" name="nombre" id="nombre" required>
             <label for="nombre">Apellido</label>
             <input type="text" name="apellido" id="apellido">
             <label for="edad">Edad</label>
@@ -36,18 +41,19 @@
         <fieldset>
             <legend>Datos Privados</legend>
             <label for="iBan">Iban</label>
-                <div class="inRow">
-                    <input type="number" id="iban1" placeholder="0000" max="9999" size="4" minlength="4">
-                    <input type="number" id="iban2" placeholder="0000" max="9999" size="4" minlength="4">
-                    <input type="number" id="iban3" placeholder="00" max="99" size="2" minlength="2">
-                </div>
+            <div class="inRow">
+                <input type="number" id="iban1" placeholder="0000" max="9999" size="4" minlength="4">
+                <input type="number" id="iban2" placeholder="0000" max="9999" size="4" minlength="4">
+                <input type="number" id="iban3" placeholder="00" max="99" size="2" minlength="2">
+            </div>
             <label for="password1">Contraseña</label>
-            <input type="text" name="password" id="password"><br>
+            <input type="text" name="password" id="password" required><br>
             <label for="password2">Confirmar Contraseña</label>
-            <input type="text" name="password2" id="password2"><br>
+            <input type="text" name="password2" id="password2" required><br>
         </fieldset>
-        <input type="submit" name="registrar" id="registrar" onclick="" value="Registrar"><br>
-        
+        <input type="submit" name="submit" id="registrar" value="Registrar"><br>
+
     </form>
 </body>
+
 </html>
