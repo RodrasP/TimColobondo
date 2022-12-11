@@ -77,6 +77,11 @@
         background-color: black;
     }
 
+    #juego  {
+        position: fixed;
+        top: 58em;
+        width: 100%;
+    }
 
     footer p {
         margin-block-start: 1em;
@@ -90,8 +95,17 @@
 
     }
 
+    #juegoGlobos img {
+        width: 20%;
+    }
 
-   
+
+
+    .move {
+        opacity: 0;
+    }
+
+
     .mobile {
         display: none;
     }
@@ -205,9 +219,9 @@
         cursor: pointer;
     }
 
-    #fieldsetLogIn{
+    #fieldsetLogIn {
         width: 15em;
     }
-    
+
 
 }

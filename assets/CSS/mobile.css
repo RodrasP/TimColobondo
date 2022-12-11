@@ -10,6 +10,14 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
+    #juegoGlobos img {
+        width: 20%;
+    }
+
+
+
+   
+
     .login {
         display: flex;
         align-items: center;
