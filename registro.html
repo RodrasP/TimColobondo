@@ -25,42 +25,42 @@
                     <p>
                         <label for="nombre">Nombre</label>
 
-                        <input type="text" name="nombre" id="nombre">
+                        <input type="text" name="nombre" id="nombre" required>
                     </p>
                     <p>
                         <label for="nombre">Apellido</label>
 
-                        <input type="text" name="apellido" id="apellido">
+                        <input type="text" name="apellido" id="apellido" required>
                     </p>
                     <p>
                         <label for="edad">Edad</label>
 
-                        <input type="number" name="edad" id="edad"><br>
+                        <input type="number" name="edad" id="edad" required><br>
                     </p>
                     <p>
                         <label for="calle">Calle</label>
 
-                        <input type="text" name="calle" id="calle">
+                        <input type="text" name="calle" id="calle" required>
                     </p>
                     <p>
                         <label for="piso">Piso</label>
 
-                        <input type="text" name="piso" id="piso">
+                        <input type="text" name="piso" id="piso" required> 
                     </p>
                     <p>
                         <label for="puerta">Puerta</label>
 
-                        <input type="text" name="puerta" id="puerta"><br>
+                        <input type="text" name="puerta" id="puerta" required><br>
                     </p>
                     <p>
                         <label for="correo">E-mail</label>
 
-                        <input type="email" name="correo" id="correo">
+                        <input type="email" name="correo" id="correo" required>
                     </p>
                     <p>
                         <label for="telefono">Telefono</label>
 
-                        <input type="tel" name="telefono" id="telefono">
+                        <input type="tel" name="telefono" id="telefono" required>
                     </p>
                     <p>
                         <label for="color">Color</label>
@@ -72,19 +72,19 @@
                     <legend>Datos Privados</legend>
                     <label for="iBan">Iban</label>
                     <div class="inRow">
-                        <input type="number" id="ccc1" placeholder="0000" max="9999" size="4" minlength="4">
-                        <input type="number" id="ccc2" placeholder="0000" max="9999" size="4" minlength="4">
-                        <input type="number" id="ccc3" placeholder="00" max="99" size="2" minlength="2">
-                        <input type="number" id="ccc4" placeholder="0000000000" max="9999999999" size="10"
-                            minlength="10">
+                        <input type="number" id="ccc1" placeholder="0000" max="9999" minlength="4" required>
+                        <input type="number" id="ccc2" placeholder="0000" max="9999"  minlength="4" required>
+                        <input type="number" id="ccc3" placeholder="00" max="99"  minlength="2" required>
+                        <input type="number" id="ccc4" placeholder="0000000000" max="9999999999" 
+                            minlength="10" required>
                     </div>
                     <p>
                         <label for="password1">Contraseña</label><br>
-                        <input type="password" name="password1" id="password">
+                        <input type="password" name="password1" id="password" required>
                     </p>
                     <p>
                         <label for="password2">Confirmar Contraseña</label><br>
-                        <input type="password" name="password2" id="password2">
+                        <input type="password" name="password2" id="password2" required>
                     </p>
                 </fieldset>
                       <input type="submit" name="submit" id="registrar" value="Registrar"><br>
